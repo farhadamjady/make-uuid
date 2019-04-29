@@ -1,0 +1,25 @@
+{
+  "name": "make-uuid",
+  "version": "1.0.0",
+  "description": "This module generates random string or identifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhadamjady/make-uuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "random-string",
+    "unique",
+    "string"
+  ],
+  "author": "Farhad Amjady",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farhadamjady/make-uuid/issues"
+  },
+  "homepage": "https://github.com/farhadamjady/make-uuid#readme"
+}

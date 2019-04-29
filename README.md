@@ -1,4 +1,4 @@
-# Make Regex
+# Make UUID
 This module generates random string or identifier.
 
 ## Install
@@ -6,16 +6,16 @@ This module generates random string or identifier.
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save get-uuid
+$ npm install --save make-uuid
 ```
     
 ```js
 
-const getUuid = require('get-uuid');
+const makeUuid = require('make-uuid');
 
-console.log( getUuid(2 ) ); // return a string like this 'uK'
+console.log( makeUuid(2 ) ); // return a string like this 'uK'
 
-console.log( getUuid(20 ) ); // return a string like this 'NGPUYkGjBgezjnaGGbBD'
+console.log( makeUuid(20 ) ); // return a string like this 'NGPUYkGjBgezjnaGGbBD'
 ```
 
 ### Running tests
