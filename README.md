@@ -13,6 +13,8 @@ $ npm install --save make-uuid
 
 const makeUuid = require('make-uuid');
 
+console.log( makeUuid() ); // return a string like this '6MlyrNcZ'. Length will be 8
+
 console.log( makeUuid(2 ) ); // return a string like this 'uK'
 
 console.log( makeUuid(20 ) ); // return a string like this 'NGPUYkGjBgezjnaGGbBD'

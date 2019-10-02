@@ -1,11 +1,11 @@
 /**
  * Return a unique identifier with the given `len`.
  *
- * @param {Number} length
+ * @param {Number} length. Default is 8
  * @return {String}
  * @api private
  */
-module.exports = function( length )
+module.exports = function( length = 8 )
 {
     let uid = '';
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
